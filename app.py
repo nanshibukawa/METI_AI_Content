@@ -127,7 +127,7 @@ if st.button("Generate Images"):
                 cols = st.columns(5)
                 for i, img in enumerate(generated_imgs):
                     with cols[i]:
-                        st.image(img, caption=f"Sample {i+1}", use_column_width=True, clamp=True)
+                        st.image(img, caption=f"Sample {i+1}", use_container_width=True, clamp=True)
             else:
                 st.warning("Could not generate images. Check model loading or prototype generation.")
 
