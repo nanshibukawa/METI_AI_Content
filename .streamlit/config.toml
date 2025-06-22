@@ -1,0 +1,4 @@
+[compatibility]
+# Specify a Python version compatible with TensorFlow 2.18.0.
+# Python 3.10 or 3.11 are usually good choices for recent TensorFlow versions.
+python_version = "3.10"
